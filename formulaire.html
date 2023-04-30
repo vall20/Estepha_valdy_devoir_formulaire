@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <div class="formulaire">
+        <!--titre du formulaire n°1-->
+        <h1>Editeur de script</h1>
+        <div class="for">
+            <!--titre du formulaire n°2-->
+            <h4> Nous soumettre votre projet:</h4>
+
+            <ul>
+                Votre Nom:
+                <br>
+                <!--Les elements <input> de type <text> sont utilisés  pour créer des champs
+                   de text sur une ligne ils sont utilisés lorsqu'on souhaite saisir du texte -->
+
+                <!--l'attribut placeholder sert a fournir des indications a l'utlisateur
+                par rapport  a l'information qu'il doit rentre dans le champ de texte-->
+
+                <!--l'attribut pattern sert -->
+                <input class="Nom_et_mail" type="text" placeholder="" pattern="[a-z]*">
+                <!--l'attribut <br> permet de faire un retour à la ligne 
+                j'ai mis beaucoup de "br" pour pouvoir separer les differents de mon formulaire 
+            ici j'ai mis deux "br" l'un après l'autre -->
+                <br> E-mail:
+                <br>
+                <input class="Nom_et_mail" type="email" placeholder="" pattern="[a-z]*">
+                <br>intitulé:
+                <br>
+                <input class="intitulé" type="text" placeholder="intitulé du projet" pattern="[a-z]*">
+                <br>
+                <br> Description du projet:
+                <br>
+                <input class="Description_du_projet" type="text" placeholder="" pattern="[a-z]*">
+                <br> Echeance:
+                <br>
+                <!--ici l'attribut <input> de type "radio" permet de faire-->
+                <input type="radio" id="sous 3 mois"> sous 3 mois<br>
+                <input type="radio" id="3 à 6 mois">3 à 6 mois
+                <br>
+                <input type="radio" id="">plus de 6 mois
+
+                <br>
+                <br>Nature de la demande
+                <br>
+                <!--ici l'attribut <input> de type "checkbox permet de faire une"-->
+                <input type="checkbox">investissement <input type="checkbox">présentations de conseil
+                <br>
+                <br>
+                <label>éponse souhaitée sous:<sup> </sup> </label>
+                <select>  <option>8 jours</option>
+                <option>1 mois</option>
+                <option>2 mois</option>
+                </select>
+                <br>
+                <br>
+                <button>send </button> <button>rest  </button>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
