@@ -1,0 +1,140 @@
+/*body {
+    background-color: blue;
+}*/
+
+h1 {
+    border-radius: 10px 10px 10px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 3px;
+    /*posionnement a gauche */
+    width: 50%;
+    /*taille */
+    color: aliceblue;
+    padding: 15px;
+}
+
+h2 {
+    border-radius: 20px 20px 20px;
+    background-color: rgb(71, 69, 69);
+    margin-left: 30%;
+    margin-top: -3%;
+    width: 50%;
+    /*taille*/
+    color: aliceblue;
+    padding: 10px;
+}
+
+.grand {
+    /*la grande div qui encadre tous le code*/
+    background-color: rgb(85, 81, 81);
+    width: 60%;
+    margin: 25%;
+    /*me permet d'espacer mes élements*/
+    margin-top: 2%;
+    /*met des espaces vers le haut*/
+    padding: 10px;
+}
+
+.grand2 {
+    /* 2ème div avec un font noir  */
+    background-color: black;
+    padding: 1%;
+    width: 98%;
+    height: 468px;
+    /*me permet de régle la taille verticalement*/
+}
+
+.information {
+    /*
+    Class  des deux cases a gauche  */
+    border-radius: 20px 20px 20px;
+    /*arondie les bords*/
+    background-color: rgb(94, 99, 99);
+    margin-top: 1%;
+    margin-left: 1%;
+    /*espacement a gauche*/
+    width: 41%;
+    padding: 15px;
+}
+
+.intituler {
+    /*Class de la case a droit la description et l'intituler 
+    je l'ai placer a droit tous seul.Je voulais la metttre avec les deux autres  
+    mais je pas reussie
+    */
+    border-radius: 10%;
+    margin-left: 30%;
+    position: relative;
+    /*me permet de placer la case moi même comme je la veux avec les vaeurts top,right ou left */
+    top: -445px;
+    /*Deplacement en haut*/
+    right: -17.5%;
+    padding: 45px;
+    background-color: rgb(94, 99, 99);
+    width: 40%;
+}
+
+label {
+    /*pour l'encadrement des titres  et la couleur des elements tel que "nom","prnom",etc... */
+    background-color: aliceblue;
+    border-radius: 20px 20px 20px;
+    padding: 3px;
+}
+
+.description {
+    /*pour le champ de saisi de la description*/
+    padding: 28%;
+    border: 5px;
+}
+
+.envoyer {
+    /*boutton envoyer*/
+    background-color: greenyellow;
+    position: relative;
+    top: -414px;
+    right: -60%;
+    width: 10%;
+}
+
+.reinisialiser {
+    /*boutton réinisialiser*/
+    background-color: rgb(219, 50, 50);
+    position: relative;
+    top: -434px;
+    right: -73%;
+    width: 10%;
+}
+
+span {
+    /*encadre le "nom" et les inputs*/
+    /*pour la couleur des inputs et des titres*/
+    background-color: rgb(173, 177, 180);
+    padding: 2%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+dd {
+    /*j'ai mis cette class toute seul pour pouvoir la placer un peu a droite des élements a gauche*/
+    margin-left: 30%;
+    background-color: aliceblue;
+    border-radius: 20px 20px 20px;
+    padding: -1px;
+}
+
+.champ_de_text {
+    /*
+    pour la couleur des inputs*/
+    background-color: rgb(240, 217, 180);
+    border-raduis: 3%;
+    padding: 5px;
+}
+
+.echeance {
+    border: 2px;
+    border-radius: 12%;
+    background-color: rgb(85, 84, 84);
+    padding: -2%;
+    margin-top: 5%;
+}
