@@ -1,0 +1,52 @@
+h2 {
+    border-radius: 20px 20px 20px;
+    background-color: rgb(71, 69, 69);
+    margin-left: 30%;
+    margin-top: -3%;
+    width: 50%;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.grand {
+    /*grand div qui encadre tous le code*/
+    background-color: rgb(85, 81, 81);
+    width: 60%;
+    margin: 25%;
+      /*me permet d'espacer mes élements*/
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.information {
+      /*
+    Class  des deux cases a gauche  */
+    border-radius: 20px 20px 20px;
+    background-color: rgb(94, 99, 99);
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 41%;
+    padding: 15px;
+}
+
+.intituler {
+    border-radius: 10%;
+    margin-left: 30%;
+    position: relative;
+    top: -320px;
+    right: -17.5%;
+    padding: 45px;
+    background-color: rgb(94, 99, 99);
+    width: 40%;
+}
+
+label {
+    background-color: aliceblue;
+    border-radius: 20px 20px 20px;
+    padding: 3px;
+}
+
+.description {
+    padding: 28%;
+    border: 5px;
+}
